@@ -17,7 +17,6 @@ for every country in the world.
   * [Technologies](#technologies)
   * [Run Locally](#run-locally)
   * [Authors](#authors)
-  * [Acknowledgements](#acknowledgements)
   * [Contact](#contact)
 
 ## Summary
