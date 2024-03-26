@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# Flags
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a full-stack web application built with [React](https://react.dev/), and bootstrapped 
+with [Vite](https://vitejs.dev/).  It uses [Supabase](https://supabase.com/) for the 
+[Postgres](https://www.postgresql.org/) database and it displays a searchable list of the flags 
+for every country in the world.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+* [flags](#flagsofearth-react-ts)
+  * [Description](#description)
+  * [Table of Contents](#table-of-contents)
+  * [Summary](#summary)
+  * [Features](#features)
+  * [Technologies](#technologies)
+  * [Run Locally](#run-locally)
+  * [Authors](#authors)
+  * [Acknowledgements](#acknowledgements)
+  * [Contact](#contact)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Summary
 
-- Configure the top-level `parserOptions` property like this:
+This project was built as part of my time in the July 2022 cohort 
+at Alchemy Code Lab, in Portland, Oregon.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+An exercise in making API calls, handling the returned data, and filtering state.  
+
+## Technologies
+
+- JavaScript
+- TypeScript
+- JSX
+- CSS
+- React
+- ESLint
+- Supabase
+
+## Run Locally
+
+The following steps will run the project in the *development* mode:
+
+1. Clone the project: `$ git clone https://the-project`
+
+2. Go to the project directory: `$ cd the-project`
+
+3. Install dependencies: `npm install`
+
+4. Start the server: `npm run dev`
+
+5. Open `http://localhost:5173` to view it in the browser.
+
+The page will reload if you make edits, 
+and any lint errors will appear in the console.
+
+## Authors
+
+> [@Adam-Robson](https://www.github.com/Adam-Robson)
+
+## Contact
+
+I can be reached by email to adamray312@gmail.com.
