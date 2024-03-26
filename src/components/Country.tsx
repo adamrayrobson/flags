@@ -14,7 +14,7 @@ export default function Country({
   }
 
   return (
-    <div className='country-card' onClick={toggleName}>
+    <div data-testid="country-div" className='country-card' onClick={toggleName}>
       <img
         className="flag"
         src={`https://flagcdn.com/${iso}.svg`}

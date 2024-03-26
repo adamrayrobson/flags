@@ -56,6 +56,8 @@ export interface CountryPropTypes {
   created_at: string
   name: string | null
   iso2: string | null
+  population: number | null
+  capital: string | null
   flag: string | null
   region: string | null
 }

@@ -31,19 +31,20 @@ export default function Countries() {
           className="select"
           name="continent"
           id="continent"
+          data-testid="continent"
           value={continent}
           onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
             setContinent(e.target.value)
           }}
         >
-          <option value="all">All Countries</option>
-          <option value="Africa">Africa</option>
-          <option value="Antarctica">Antarctica</option>
-          <option value="Asia">Asia</option>
-          <option value="Oceania">Oceania</option>
-          <option value="Americas">Americas</option>
+          <option data-testid="country-name" value="all">All Countries</option>
+          <option data-testid="country-name" value="Africa">Africa</option>
+          <option data-testid="country-name" value="Antarctica">Antarctica</option>
+          <option data-testid="country-name" value="Asia">Asia</option>
+          <option data-testid="country-name" value="Oceania">Oceania</option>
+          <option data-testid="country-name" value="Americas">Americas</option>
         </select>
-        <span className="error">{error}</span>
+        <span data-testid="error" className="error">{error}</span>
         <main>
           {loading && <Loader />}
           <div className="flag-grid">
